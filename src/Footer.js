@@ -1,12 +1,12 @@
-import React from 'react';
+import React,{Fragment} from 'react';
 function Footer(){
     return(
-        <div>
+        <Fragment>
             <hr/>
             <center>
                 <h3>&copy; Tejas Developer</h3>
             </center>
-        </div>
+        </Fragment>
     )
 }
 export default Footer
